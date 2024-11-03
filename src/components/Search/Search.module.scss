@@ -1,0 +1,22 @@
+.input {
+  width: 55%;
+  border: 2px solid #d71e0b;
+  border-radius: 40px;
+  box-shadow: 1px 3px 9px rgba($color: #000000, $alpha: 0.25);
+  padding: 10px 15px;
+  &:focus {
+    outline: none;
+  }
+}
+
+.btn {
+  box-shadow: 1px 3px 9px rgba($color: #000000, $alpha: 0.25);
+    border-radius: 40px;
+}
+
+
+@media (max-width: 576px) {
+  .input {
+    width: 80%;
+  }
+}

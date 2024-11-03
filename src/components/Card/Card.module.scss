@@ -1,0 +1,27 @@
+$radius: 10px;
+
+.card {
+  border: 2px solid  #d71e0b;
+  border-radius: $radius;
+}
+
+.content {
+  padding: 10px;
+}
+
+.img {
+  border-radius: $radius $radius 0 0;
+}
+
+.badge {
+  top: 10px;
+  left: 20px;
+  font-size: 17px;
+}
+.save-favorites-button {
+  position: fixed;
+  bottom: 20px; /* Espaciado desde el borde inferior */
+  right: 20px;  /* Espaciado desde el borde derecho */
+  z-index: 1030; /* Asegúrate de que esté por encima de otros elementos */
+}
+
