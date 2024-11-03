@@ -133,7 +133,7 @@ const Card = ({ page, results }) => {
       );
     });
   } else {
-    display = "No Characters Found :/";
+    display = "personaje no encontrado";
   }
 
   return (
